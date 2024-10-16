@@ -21,4 +21,7 @@ router.get("/:nick", async function(req, res, next) {
 });
 
 
+//Hero.find({},{_id:0,title:1,nick:1},callback)
+
+
 module.exports = router;
